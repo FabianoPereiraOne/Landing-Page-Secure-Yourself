@@ -2,9 +2,12 @@ export const Benefits = () => {
   return (
     <section
       id='benefits'
-      className=' w-full overflow-hidden p-[20px] md:p-[36px]'
+      className=' w-full overflow-hidden p-[20px] md:p-[36px] relative 
+         before:hidden lg:before:flex
+         before:bg-[url(/assets/range.svg)]
+         before:absolute before:right-[-80px] before:bottom-[-50px] before:w-[150px] before:h-[150px] md:before:w-[500px] md:before:h-[500px] z-10 before:-z-1 bg-contain bg-no-repeat bg-center'
     >
-      <div className='w-full max-w-[1400px] mx-auto gap-[64px] md:gap-[100px] py-[36px] md:py-[64px] lg:min-h-[50vh] flex flex-col items-center'>
+      <div className='w-full max-w-[1400px] mx-auto gap-[64px] md:gap-[100px] py-[36px] lg:pt-[64px] lg:pb-[300px] lg:min-h-[60vh] flex flex-col items-center'>
         <article className='w-full md:max-w-[500px] z-10'>
           <strong className='block max-w-[250px] mx-auto text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Entenda os Fatores

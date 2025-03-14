@@ -8,7 +8,7 @@ export const About = () => {
       className=' w-full overflow-hidden p-[20px] md:p-[36px]'
     >
       <div className='w-full max-w-[1400px] mx-auto gap-[64px] md:gap-[100px] py-[36px] md:py-[100px] lg:min-h-[80vh] flex flex-col lg:flex-row items-center lg:justify-center'>
-        <article className='w-full md:max-w-[500px]'>
+        <article className='flex-1'>
           <strong className='block max-w-[280px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Acorde Para a Realidade
           </strong>
