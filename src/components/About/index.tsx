@@ -9,7 +9,7 @@ export const About = () => {
     >
       <div className='w-full max-w-[1400px] mx-auto gap-[64px] md:gap-[100px] py-[36px] md:py-[100px] lg:min-h-[80vh] flex flex-col lg:flex-row items-center lg:justify-center'>
         <article className='w-full md:max-w-[500px]'>
-          <strong className='block max-w-[300px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
+          <strong className='block max-w-[280px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Acorde Para a Realidade
           </strong>
           <h3 className='text-left md:text-center lg:text-left text-2xl  text-white font-extrabold mt-[16px]'>
