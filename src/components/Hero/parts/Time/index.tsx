@@ -30,7 +30,7 @@ export const Time = () => {
       <strong className='text-white text-md font-semibold'>
         ⚠️ Oferta {timeLeft === 0 ? "expirada" : "por tempo limitado"}
       </strong>
-      <time className='max-w-[220px] inline-flex items-center justify-center  overflow-hidden  transition duration-300 ease-out px-6 py-3 tracking-[2px]  text-white text-3xl font-semibold uppercase rounded-[6px] border border-white shadow-md group transition-all ease-in'>
+      <time className='w-[220px] inline-flex items-center justify-center  overflow-hidden  transition duration-300 ease-out px-6 py-3 tracking-[2px]  text-white text-3xl font-semibold uppercase rounded-[6px] border border-white shadow-md group transition-all ease-in'>
         {formatTime(timeLeft)}
       </time>
     </>
