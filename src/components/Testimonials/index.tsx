@@ -27,7 +27,7 @@ export const Testimonials = () => {
             .fill(null)
             .map(() => {
               return (
-                <article className=' flex-1 min-w-[300px] hover:scale-103 transition duration-300 p-6 border border-gray-900 rounded-[6px] bg-[#101010] flex flex-col gap-4'>
+                <article className=' flex-1 min-w-[300px] hover:scale-103 transition duration-300 p-6 border border-zinc-800 rounded-[6px] bg-[#101010] flex flex-col gap-4'>
                   <span className='text-yellow-500 font-extrabold text-3xl flex'>
                     <MdStar />
                     <MdStar />

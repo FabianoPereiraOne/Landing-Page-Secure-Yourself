@@ -30,7 +30,7 @@ export const Hero = () => {
               <LinkBuy />
               <Link
                 href='#about'
-                className='relative inline-flex items-center justify-center  overflow-hidden  transition duration-300 ease-out px-6 py-3 text-white text-md font-semibold uppercase rounded-[6px] border border-white shadow-md group'
+                className='relative inline-flex items-center justify-center  overflow-hidden  transition duration-300 ease-out px-6 py-3 text-white text-md font-semibold uppercase rounded-[6px] border border-zinc-800 shadow-md group'
               >
                 <span className='absolute inset-0 flex items-center justify-center w-full h-full text-red-500 duration-300 -translate-x-full bg-white group-hover:translate-x-0 ease'>
                   <FiArrowDown className='w-6 h-6' />

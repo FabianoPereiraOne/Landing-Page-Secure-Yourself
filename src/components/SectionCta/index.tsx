@@ -18,7 +18,7 @@ export const SectionCta = () => {
             O conhecimento contido neste ebook pode fazer a difereça entre a
             vida e a morte. Não deixe para depois
           </p>
-          <article className='w-full mx-auto max-w-[450px]  p-6 border border-gray-900 rounded-[6px] bg-[#101010] flex gap-[36px] items-center md:justify-center flex-col md:flex-row'>
+          <article className='w-full mx-auto max-w-[450px]  p-6 border border-zinc-800 rounded-[6px] bg-[#101010] flex gap-[36px] items-center md:justify-center flex-col md:flex-row'>
             <div className='flex flex-col gap-2'>
               <p className='text-gray-500 text-md line-through text-center md:text-left'>
                 R$ 97,00

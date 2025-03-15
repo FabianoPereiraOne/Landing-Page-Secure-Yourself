@@ -1,5 +1,6 @@
 import { About } from "@/components/About"
 import { Benefits } from "@/components/Benefits"
+import { Faq } from "@/components/Faq"
 import { Guarantee } from "@/components/Guarantee"
 import { Hero } from "@/components/Hero"
 import { RangeHorizontal } from "@/components/RangeHorizontal"
@@ -18,6 +19,7 @@ export default function Home() {
       <Guarantee />
       <RangeHorizontal />
       <SectionCta />
+      <Faq />
     </>
   )
 }
