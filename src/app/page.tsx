@@ -1,6 +1,7 @@
 import { About } from "@/components/About"
 import { Benefits } from "@/components/Benefits"
 import { Faq } from "@/components/Faq"
+import { Footer } from "@/components/Footer"
 import { Guarantee } from "@/components/Guarantee"
 import { Hero } from "@/components/Hero"
 import { RangeHorizontal } from "@/components/RangeHorizontal"
@@ -20,6 +21,7 @@ export default function Home() {
       <RangeHorizontal />
       <SectionCta />
       <Faq />
+      <Footer />
     </>
   )
 }

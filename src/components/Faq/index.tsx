@@ -42,7 +42,7 @@ export const Faq = () => {
                       <p className='text-white text-left'>{item?.question}</p>
                     </div>
                   </AccordionTrigger>
-                  <AccordionContent className='p-4 text-zinc-400 text-md font-normal transition duration-100'>
+                  <AccordionContent className='p-4 text-zinc-400 text-md font-normal transition-[height,opacity] duration-300 ease-in-out'>
                     {item?.answer}
                   </AccordionContent>
                 </AccordionItem>
