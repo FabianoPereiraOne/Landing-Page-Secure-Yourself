@@ -1,5 +1,6 @@
 import { About } from "@/components/About"
 import { Benefits } from "@/components/Benefits"
+import { Guarantee } from "@/components/Guarantee"
 import { Hero } from "@/components/Hero"
 import { Testimonials } from "@/components/Testimonials"
 import { WhyBuy } from "@/components/WhyBuy"
@@ -12,6 +13,7 @@ export default function Home() {
       <Benefits />
       <WhyBuy />
       <Testimonials />
+      <Guarantee />
     </>
   )
 }
