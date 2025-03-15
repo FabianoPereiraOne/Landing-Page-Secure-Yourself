@@ -37,9 +37,9 @@ export const WhyBuy = () => {
           <div className='flex flex-col gap-4 items-center lg:items-start'>
             {Array(4)
               .fill(null)
-              .map(() => {
+              .map((_, index) => {
                 return (
-                  <article className=' flex items-center gap-8'>
+                  <article key={index} className=' flex items-center gap-8'>
                     <span className='text-red-500 font-extrabold text-3xl'>
                       <FiCheckCircle />
                     </span>

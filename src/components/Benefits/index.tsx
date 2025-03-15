@@ -19,13 +19,16 @@ export const Benefits = () => {
             Um guia completo que aborda todos os aspectos do feminicídio
           </p>
         </article>
-        <div className='w-full z-10 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 before:blur-[200px] relative  before:absolute before:left-[50%] before:translate-x-[-50%] before:top-0 before:w-[150px] before:h-[150px] lg:before:w-[250px] lg:before:h-[250px] before:-z-10 before:bg-red-500 before:rounded-full lg:before:blur-[250px] '>
+        <div className='w-full z-10 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 before:blur-[200px] relative  before:absolute before:left-[50%] before:translate-x-[-50%] before:bottom-36px before:w-[150px] before:h-[150px] lg:before:w-[200px] lg:before:h-[200px] before:-z-10 before:bg-red-500 before:rounded-full lg:before:blur-[250px] '>
           {Array(6)
             .fill(null)
             .map((_, index) => {
               const count = index + 1
               return (
-                <article className='hover:scale-103 transition duration-300 p-6 border-l-4 border-l-red-500 rounded-[6px] bg-[#101010] flex items-center gap-8'>
+                <article
+                  key={count}
+                  className='hover:scale-103 transition duration-300 p-6 border-l-4 border-l-red-500 rounded-[6px] bg-[#101010] flex items-center gap-8'
+                >
                   <span className='text-red-500 font-extrabold text-3xl'>
                     0{count}
                   </span>
