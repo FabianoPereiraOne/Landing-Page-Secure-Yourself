@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+import { AnimateOnScroll } from "../AnimateOnScroll"
 import { LinkBuy } from "../LinkBuy"
 
 export const SectionCta = () => {
@@ -10,7 +12,12 @@ export const SectionCta = () => {
         before:absolute before:left-[-80px] before:top-[-140px] before:w-[150px] before:h-[150px] md:before:w-[500px] md:before:h-[500px] z-10 before:-z-1 bg-contain bg-no-repeat bg-center'
     >
       <div className='w-full max-w-[1400px] mx-auto gap-[64px]  py-[36px] flex flex-col lg:flex-row items-center lg:justify-center'>
-        <article className='flex-1'>
+        <AnimateOnScroll
+          MotionComponent={motion.article}
+          direction='up'
+          delay={0.1}
+          className='flex-1'
+        >
           <h3 className='text-center uppercase text-2xl  text-white font-extrabold'>
             Não Espere para Agir
           </h3>
@@ -29,7 +36,7 @@ export const SectionCta = () => {
             </div>
             <LinkBuy classAdt='mx-0 md:mx-auto lg:mx-0' />
           </article>
-        </article>
+        </AnimateOnScroll>
       </div>
     </section>
   )

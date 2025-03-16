@@ -1,5 +1,7 @@
+import { motion } from "framer-motion"
 import Image from "next/image"
 import { FiCheckCircle } from "react-icons/fi"
+import { AnimateOnScroll } from "../AnimateOnScroll"
 
 export const WhyBuy = () => {
   return (
@@ -8,7 +10,10 @@ export const WhyBuy = () => {
       className=' w-full overflow-hidden px-[20px] md:px-[36px]'
     >
       <div className='w-full max-w-[1400px] mx-auto gap-[64px] md:gap-[100px] py-[36px] lg:min-h-[60vh] flex flex-col lg:flex-row items-center lg:justify-center'>
-        <figure
+        <AnimateOnScroll
+          MotionComponent={motion.figure}
+          direction='left'
+          delay={0.1}
           className='
          w-full max-w-[500px]  
         '
@@ -19,8 +24,13 @@ export const WhyBuy = () => {
             width={500}
             height={500}
           />
-        </figure>
-        <article className='flex-1'>
+        </AnimateOnScroll>
+        <AnimateOnScroll
+          MotionComponent={motion.article}
+          direction='right'
+          delay={0.1}
+          className='flex-1'
+        >
           <strong className='block max-w-[230px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Oque você precisa
           </strong>
@@ -55,7 +65,7 @@ export const WhyBuy = () => {
                 )
               })}
           </div>
-        </article>
+        </AnimateOnScroll>
       </div>
     </section>
   )

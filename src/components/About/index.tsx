@@ -1,4 +1,6 @@
+import { motion } from "framer-motion"
 import Image from "next/image"
+import { AnimateOnScroll } from "../AnimateOnScroll"
 import { LinkBuy } from "../LinkBuy"
 
 export const About = () => {
@@ -8,7 +10,12 @@ export const About = () => {
       className=' w-full overflow-hidden p-[20px] md:p-[36px]'
     >
       <div className='w-full max-w-[1400px] mx-auto gap-[64px] md:gap-[100px] py-[36px] md:py-[100px] lg:min-h-[80vh] flex flex-col lg:flex-row items-center lg:justify-center'>
-        <article className='flex-1'>
+        <AnimateOnScroll
+          MotionComponent={motion.article}
+          direction='left'
+          delay={0.1}
+          className='flex-1'
+        >
           <strong className='block max-w-[280px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Acorde Para a Realidade
           </strong>
@@ -31,8 +38,12 @@ export const About = () => {
             sobre o comportamento.
           </p>
           <LinkBuy classAdt='mx-0 md:mx-auto lg:mx-0' />
-        </article>
-        <figure
+        </AnimateOnScroll>
+
+        <AnimateOnScroll
+          MotionComponent={motion.figure}
+          direction='right'
+          delay={0.1}
           className='
          w-full max-w-[500px] relative 
          before:hidden md:before:flex
@@ -45,7 +56,7 @@ export const About = () => {
             width={500}
             height={500}
           />
-        </figure>
+        </AnimateOnScroll>
       </div>
     </section>
   )

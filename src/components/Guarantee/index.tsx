@@ -1,4 +1,6 @@
+import { motion } from "framer-motion"
 import Image from "next/image"
+import { AnimateOnScroll } from "../AnimateOnScroll"
 import { LinkBuy } from "../LinkBuy"
 
 export const Guarantee = () => {
@@ -8,7 +10,12 @@ export const Guarantee = () => {
       className=' w-full overflow-hidden p-[20px] md:p-[36px]'
     >
       <div className='w-full max-w-[1400px] mx-auto gap-[64px]  py-[36px] lg:min-h-[80vh] flex flex-col lg:flex-row items-center lg:justify-center'>
-        <article className='flex-1'>
+        <AnimateOnScroll
+          MotionComponent={motion.article}
+          direction='left'
+          delay={0.1}
+          className='flex-1'
+        >
           <strong className='block max-w-[280px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Seu direito garantido
           </strong>
@@ -31,18 +38,21 @@ export const Guarantee = () => {
             sobre o comportamento.
           </p>
           <LinkBuy classAdt='mx-0 md:mx-auto lg:mx-0' />
-        </article>
-        <figure
+        </AnimateOnScroll>
+        <AnimateOnScroll
+          MotionComponent={motion.figure}
+          direction='right'
+          delay={0.1}
           className='
          w-full max-w-[500px]'
         >
           <Image
-            src='/assets/guarantee.svg'
+            src='/assets/quality.webp'
             alt='Imagem Sobre'
             width={500}
             height={500}
           />
-        </figure>
+        </AnimateOnScroll>
       </div>
     </section>
   )

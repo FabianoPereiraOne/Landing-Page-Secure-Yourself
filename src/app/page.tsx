@@ -1,3 +1,4 @@
+"use client"
 import { About } from "@/components/About"
 import { Benefits } from "@/components/Benefits"
 import { Faq } from "@/components/Faq"
