@@ -24,7 +24,7 @@ export const Hero = () => {
             <p className='text-left md:text-center lg:text-left mt-4 text-gray-200 font-normal text-md'>
               Os sinais estão lá, mas muitas mulheres não os percebem até que
               seja tarde demais. Iremos te ensinar a identificar os perigos
-              escondidos e a se proteger antes que algo aconteça.
+              escondidos e a se proteger antes que o pior aconteça.
             </p>
             <div className='w-full flex items-center gap-[16px] mt-6 flex-wrap justify-start md:justify-center lg:justify-start'>
               <LinkBuy />
