@@ -1,3 +1,4 @@
+import { listWhy } from "@/schemas/base/cards"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { FiCheckCircle } from "react-icons/fi"
@@ -45,25 +46,23 @@ export const WhyBuy = () => {
             prender suas vítimas em um ciclo de medo e dependência.
           </p>
           <div className='flex flex-col gap-4 items-center lg:items-start'>
-            {Array(4)
-              .fill(null)
-              .map((_, index) => {
-                return (
-                  <article key={index} className=' flex items-center gap-8'>
-                    <span className='text-red-500 font-extrabold text-3xl'>
-                      <FiCheckCircle />
-                    </span>
-                    <div>
-                      <strong className='text-left text-gray-300 font-semibold text-lg whitespace-pre-line'>
-                        Conhecimento que salva vidas
-                      </strong>
-                      <p className='text-left mt-2 text-gray-300 font-normal text-md whitespace-pre-line'>
-                        Informações vitais que podem previr tragédias
-                      </p>
-                    </div>
-                  </article>
-                )
-              })}
+            {listWhy.map((card, index) => {
+              return (
+                <article key={index} className=' flex items-center gap-8'>
+                  <span className='text-red-500 font-extrabold text-3xl'>
+                    <FiCheckCircle />
+                  </span>
+                  <div>
+                    <strong className='text-left text-gray-300 font-semibold text-lg whitespace-pre-line'>
+                      {card?.title ?? ""}
+                    </strong>
+                    <p className='text-left mt-2 text-gray-300 font-normal text-md whitespace-pre-line'>
+                      {card?.subtitle ?? ""}
+                    </p>
+                  </div>
+                </article>
+              )
+            })}
           </div>
         </AnimateOnScroll>
       </div>

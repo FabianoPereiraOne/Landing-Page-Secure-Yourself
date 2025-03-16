@@ -23,19 +23,25 @@ export const Guarantee = () => {
             Satisfação Garantida
           </h3>
           <p className='text-left mb-[36px] md:text-center lg:text-left mt-4 text-gray-200 font-normal text-md whitespace-pre-line'>
-            Todos os dias, mulheres são vítimas de relacionamentos abusivos que
-            terminam em tragédia. Muitos desses casos poderiam ter sido evitados
-            se os sinais tivessem sido identificados a tempo. O problema é que
-            os agressores sabem como manipular, esconder sua verdadeira face e
-            prender suas vítimas em um ciclo de medo e dependência.{"\n\n"} Este
-            e-book foi criado para abrir seus olhos e te ensinar a reconhecer os
-            padrões perigosos antes que seja tarde. Através de uma abordagem
-            direta e sem rodeios, você aprenderá a identificar sinais sutis de
-            comportamento abusivo, os perfis mais perigosos e as estratégias
-            para se proteger de relacionamentos tóxicos.{"\n\n"} Aqui, você não
-            vai encontrar teorias complexas ou discursos vazios. Você terá
-            acesso a informações práticas, baseadas em relatos reais e estudos
-            sobre o comportamento.
+            🔥 Transforme sua vida amorosa: Evite Relacionamentos Tóxicos com
+            Segurança! 🔥{"\n\n"} Você já se viu preso(a) em um relacionamento
+            desgastante, que drena sua energia e autoestima? Chega de sofrer!
+            Nosso eBook foi criado para te ajudar a reconhecer os sinais de um
+            relacionamento tóxico antes que seja tarde demais.{"\n\n"} ✅
+            Aprenda a identificar comportamentos abusivos antes que eles afetem
+            sua saúde emocional. {"\n"}✅ Descubra técnicas para fortalecer sua
+            autoestima e impor limites saudáveis. {"\n"}✅ Saia de ciclos
+            destrutivos com estratégias comprovadas por especialistas.{"\n"}✅
+            Construa relacionamentos mais leves e saudáveis, baseados no
+            respeito e na reciprocidade. {"\n\n"}💡 Garantia de Satisfação ou
+            Seu Dinheiro de Volta! Temos tanta certeza de que este eBook será um
+            divisor de águas na sua vida que oferecemos garantia total. Se em
+            até 7 dias você não sentir que está mais preparado(a) para evitar
+            relações tóxicas, devolvemos 100% do seu dinheiro. Sem burocracia,
+            sem risco para você! {"\n\n"}🚀 Dê o primeiro passo para um futuro
+            livre de relações tóxicas! Baixe agora e comece sua jornada de
+            transformação.{"\n\n"}
+            ASMR Auto hipnsose
           </p>
           <LinkBuy classAdt='mx-0 md:mx-auto lg:mx-0' />
         </AnimateOnScroll>

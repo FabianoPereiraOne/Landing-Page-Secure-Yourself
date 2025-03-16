@@ -1,3 +1,4 @@
+import { listTestimonials } from "@/schemas/base/cards"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { MdStar } from "react-icons/md"
@@ -23,55 +24,52 @@ export const Testimonials = () => {
             Você Não Está Sozinha
           </strong>
           <h3 className='text-center text-2xl  text-white font-extrabold mt-[16px]'>
-            O que dizem sobre o Ebook
+            ⭐ Depoimentos de quem transformou a vida com nosso eBook! ⭐
           </h3>
           <p className='text-center mt-4 text-gray-200 font-normal text-md whitespace-pre-line'>
-            Um guia completo que aborda todos os aspectos do feminicídio
+            📖 Se essas histórias te inspiraram, está na hora de transformar a
+            sua também! 🚀
           </p>
         </AnimateOnScroll>
-        <div className='w-full flex flex-wrap gap-[24px]'>
-          {Array(3)
-            .fill(null)
-            .map((_, index) => {
-              const directions = {
-                0: "left",
-                1: "up",
-                2: "right"
-              } as any
+        <div className='w-full flex flex-wrap gap-[24px] '>
+          {listTestimonials.map((card, index) => {
+            const directions = {
+              0: "left",
+              1: "up",
+              2: "right"
+            } as any
 
-              return (
-                <AnimateOnScroll
-                  MotionComponent={motion.article}
-                  direction={directions[index] ?? "up"}
-                  key={index}
-                  className=' flex-1 min-w-[300px] hover:scale-103 transition duration-300 p-6 border border-zinc-800 rounded-[6px] bg-[#101010] flex flex-col gap-4'
-                >
-                  <span className='text-yellow-500 font-extrabold text-3xl flex'>
-                    <MdStar />
-                    <MdStar />
-                    <MdStar />
-                    <MdStar />
-                    <MdStar />
-                  </span>
-                  <p className='text-left mt-2 text-gray-300 font-normal text-md whitespace-pre-line'>
-                    Este e-book foi criado para abrir seus olhos e te ensinar a
-                    reconhecer os padrões perigosos antes que seja tarde.
-                    Através de uma abordagem direta
-                  </p>
-                  <div className='flex items-center gap-4 mt-2'>
-                    <Image
-                      src='/assets/user.webp'
-                      alt='Foto Susana Alves'
-                      width={36}
-                      height={36}
-                    />
-                    <strong className='text-white font-medium text-md'>
-                      Susana Alves
-                    </strong>
-                  </div>
-                </AnimateOnScroll>
-              )
-            })}
+            return (
+              <AnimateOnScroll
+                MotionComponent={motion.article}
+                direction={directions[index] ?? "up"}
+                key={index}
+                className=' flex-1 min-w-[300px] hover:scale-103 transition duration-300 p-6 border border-zinc-800 rounded-[6px] bg-[#101010] flex flex-col gap-4 justify-between'
+              >
+                <span className='text-yellow-500 font-extrabold text-3xl flex'>
+                  <MdStar />
+                  <MdStar />
+                  <MdStar />
+                  <MdStar />
+                  <MdStar />
+                </span>
+                <p className='text-left mt-2 text-gray-300 font-normal text-md whitespace-pre-line'>
+                  {card?.description ?? ""}
+                </p>
+                <div className='flex items-center gap-4 mt-2'>
+                  <Image
+                    src='/assets/user.webp'
+                    alt='Foto Susana Alves'
+                    width={36}
+                    height={36}
+                  />
+                  <strong className='text-white font-medium text-md'>
+                    {card?.name ?? ""}
+                  </strong>
+                </div>
+              </AnimateOnScroll>
+            )
+          })}
         </div>
       </div>
     </section>
