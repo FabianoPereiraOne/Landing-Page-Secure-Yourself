@@ -52,17 +52,17 @@ export const listWhy = [
 
 export const listTestimonials = [
   {
-    name: "Ana P. – 32 anos",
+    name: "Ana P. – 20 anos",
     description:
       "Sempre me envolvia com pessoas que sugavam minha energia e me faziam sentir culpada por tudo. Depois de ler este eBook, consegui reconhecer padrões tóxicos e cortar laços sem medo. Hoje, sou mais confiante e valorizo minha paz acima de tudo!"
   },
   {
-    name: "Amanda L. – 27 anos",
+    name: "Amanda L. – 24 anos",
     description:
       "Eu achava que ciúmes excessivos e controle eram sinais de amor. O eBook me abriu os olhos para o que realmente é um relacionamento saudável. Finalmente, aprendi a impor limites e escolher melhor com quem me relaciono!"
   },
   {
-    name: "Clara M. – 40 anos",
+    name: "Clara M. – 18 anos",
     description:
       "Foram anos em uma relação que me fazia mal, mas eu não conseguia sair. O eBook me deu clareza e coragem para dar um basta. Agora, estou reconstruindo minha autoestima e vivendo relacionamentos mais saudáveis!"
   }
