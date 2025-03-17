@@ -47,26 +47,12 @@ export const Hero = () => {
           </div>
         </div>
 
-        <figure className='hidden md:grid relative h-full grid-cols-2 gap-4 w-full max-w-[500px] mb-8 before:hidden lg:before:flex before:absolute before:right-[-16px] xl:before:right-[-36px] before:top-[36px] before:w-[500px] before:rounded-[6px] before:-z-1 before:h-[400px] before:bg-[rgba(29,28,28,0.3)]'>
+        <figure className='hidden md:grid relative h-full gap-4 w-full max-w-[500px] mb-8 before:hidden lg:before:flex before:absolute before:right-[-16px] xl:before:right-[-36px] before:top-[36px] before:w-[500px] before:rounded-[6px] before:-z-1 before:h-[400px] before:bg-[rgba(29,28,28,0.3)]'>
           <Image
-            src='/assets/image1.webp'
+            src='/assets/cover.webp'
             alt='Imagem da mulher 1'
-            width={270}
-            height={213.5}
-            className='w-full h-full object-cover rounded-[6px]'
-          />
-          <Image
-            src='/assets/image3.webp'
-            alt='Imagem da mulher 2'
-            width={270}
-            height={443}
-            className='row-span-2 w-full h-full object-cover rounded-[6px]'
-          />
-          <Image
-            src='/assets/image2.webp'
-            alt='Imagem da mulher 3'
-            width={270}
-            height={213.5}
+            width={500}
+            height={500}
             className='w-full h-full object-cover rounded-[6px]'
           />
         </figure>

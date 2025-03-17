@@ -41,7 +41,6 @@ export const Guarantee = () => {
             sem risco para você! {"\n\n"}🚀 Dê o primeiro passo para um futuro
             livre de relações tóxicas! Baixe agora e comece sua jornada de
             transformação.{"\n\n"}
-            ASMR Auto hipnsose
           </p>
           <LinkBuy classAdt='mx-0 md:mx-auto lg:mx-0' />
         </AnimateOnScroll>
@@ -53,7 +52,7 @@ export const Guarantee = () => {
          w-full max-w-[500px]'
         >
           <Image
-            src='/assets/quality.webp'
+            src='/assets/guarantee.webp'
             alt='Imagem Sobre'
             width={500}
             height={500}

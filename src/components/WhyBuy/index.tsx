@@ -20,7 +20,8 @@ export const WhyBuy = () => {
         '
         >
           <Image
-            src='/assets/openGraph.webp'
+            className='rounded-[6px]'
+            src='/assets/why.webp'
             alt='Imagem Sobre'
             width={500}
             height={500}

@@ -38,6 +38,7 @@ export const Testimonials = () => {
               1: "up",
               2: "right"
             } as any
+            const count = index + 1
 
             return (
               <AnimateOnScroll
@@ -58,10 +59,11 @@ export const Testimonials = () => {
                 </p>
                 <div className='flex items-center gap-4 mt-2'>
                   <Image
-                    src='/assets/user.webp'
+                    src={`/assets/image${count}.webp`}
                     alt='Foto Susana Alves'
                     width={36}
                     height={36}
+                    className='w-[36px] h-[36px] object-cover rounded-[50%]'
                   />
                   <strong className='text-white font-medium text-md'>
                     {card?.name ?? ""}
