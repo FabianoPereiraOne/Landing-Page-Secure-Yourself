@@ -12,7 +12,7 @@ export const Hero = () => {
           Atenção: Está Oferta Expira Em Poucas Horas!
         </span>
       </span>
-      <div className='w-full max-w-[1400px] mx-auto pt-[150px] pb-[48px] md:py-[150px] gap-[100px]  lg:min-h-[70vh] flex flex-col lg:flex-row items-center lg:justify-center'>
+      <div className='w-full max-w-[1400px] mx-auto pt-[150px] pb-[48px] md:py-[150px] gap-[64px] md:gap-[100px] lg:min-h-[70vh] flex flex-col lg:flex-row items-center lg:justify-center'>
         <div className='w-full md:max-w-[500px]'>
           <article className='w-full flex-col'>
             <h1 className='text-left md:text-center lg:text-left text-2xl text-red-500 font-extrabold md:text-3xl uppercase'>
@@ -47,7 +47,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        <figure className='hidden md:grid relative h-full gap-4 w-full max-w-[500px] mb-8 before:hidden lg:before:flex before:absolute before:right-[-16px] xl:before:right-[-36px] before:top-[36px] before:w-[500px] before:rounded-[6px] before:-z-1 before:h-[400px] before:bg-[rgba(29,28,28,0.3)]'>
+        <figure className='grid relative h-full w-full max-w-[500px] before:hidden lg:before:flex before:absolute before:right-[-16px] xl:before:right-[-36px] before:top-[36px] before:w-[500px] before:rounded-[6px] before:-z-1 before:h-[400px] before:bg-[rgba(29,28,28,0.3)]'>
           <Image
             src='/assets/cover.webp'
             alt='Imagem da mulher 1'

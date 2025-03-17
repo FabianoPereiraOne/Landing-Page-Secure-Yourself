@@ -24,7 +24,7 @@ export const Faq = () => {
           className='w-full md:max-w-[500px] z-10'
         >
           <strong className='block max-w-[250px] mx-auto text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
-            Sua change
+            Sua chance
           </strong>
           <h3 className='text-center text-2xl  text-white font-extrabold mt-[16px]'>
             Perguntas Frequentes
