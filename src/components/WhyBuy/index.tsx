@@ -20,7 +20,7 @@ export const WhyBuy = () => {
         '
         >
           <Image
-            className='rounded-[6px]'
+            className='rounded-[6px] lg:h-[700px] object-cover'
             src='/assets/why.webp'
             alt='Imagem Sobre'
             width={500}
@@ -34,17 +34,21 @@ export const WhyBuy = () => {
           className='flex-1'
         >
           <strong className='block max-w-[230px] mx-0 md:mx-auto lg:mx-0 text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
-            Oque você precisa
+            O que você precisa
           </strong>
           <h3 className='text-left md:text-center lg:text-left text-2xl  text-white font-extrabold mt-[16px]'>
-            Por Que Este Ebook é Essencial
+            Por Que Este Ebook é Essencial?
           </h3>
           <p className='text-left mb-[36px] md:text-center lg:text-left mt-4 text-gray-200 font-normal text-md whitespace-pre-line max-w-none md:max-w-[90%] lg:max-w-none mx-0 md:mx-auto lg:mx-0'>
-            Todos os dias, mulheres são vítimas de relacionamentos abusivos que
-            terminam em tragédia. Muitos desses casos poderiam ter sido evitados
-            se os sinais tivessem sido identificados a tempo. O problema é que
-            os agressores sabem como manipular, esconder sua verdadeira face e
-            prender suas vítimas em um ciclo de medo e dependência.
+            Vivemos em uma era onde os relacionamentos desempenham um papel
+            fundamental no nosso bem-estar emocional, mental e até mesmo físico.
+            No entanto, muitas pessoas acabam se envolvendo em relações tóxicas
+            sem perceber os sinais de alerta, o que pode gerar sofrimento, baixa
+            autoestima e dificuldades emocionais prolongadas. O eBook "Não seja
+            a próxima vítima" mostra como sobreviver e como evitar
+            relacionamentos tóxicos fornecendo conhecimento e ferramentas
+            práticas para identificar padrões destrutivos e desenvolver relações
+            saudáveis e equilibradas.
           </p>
           <div className='flex flex-col gap-4 items-center lg:items-start'>
             {listWhy.map((card, index) => {

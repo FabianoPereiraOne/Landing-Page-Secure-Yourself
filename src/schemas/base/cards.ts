@@ -29,23 +29,24 @@ export const listCards = [
 
 export const listWhy = [
   {
-    title: "Exercícios Práticos",
+    title: "Autoconhecimento e Autoproteção",
     subtitle:
-      "Aplique atividades que vão ajudar a identificar e mudar comportamentos tóxicos."
+      "Compreender nossos próprios limites, necessidades emocionais e padrões de comportamento é essencial para evitar relações prejudiciais. Nosso ebook ajuda o leitor a identificar gatilhos emocionais e crenças que podem levá-lo a aceitar ou tolerar relações abusivas."
   },
   {
-    title: "O medo e o caos programado",
+    title: "Identificação de Sinais de Alerta",
     subtitle:
-      "Entenda os hábitos que podem estar te mantendo em relacionamentos abusivos."
+      "Muitas vezes, os sinais de um relacionamento tóxico começam de maneira sutil, como manipulação emocional, chantagem ou controle excessivo. Nosso eBook ensina a reconhecer esses sinais precocemente e evitar que uma relação se torne desgastante e prejudicial."
   },
   {
-    title: "Exercícios Práticos de Auto Cuidado",
-    subtitle: "Práticas diárias para fortalecer sua autoestima e proteger-se."
+    title: "Prevenção de Traumas e Sofrimentos",
+    subtitle:
+      "Relacionamentos tóxicos podem ter efeitos devastadores na autoestima, na saúde mental e na capacidade de confiar novamente. Nosso ebook auxilia na prevenção desses danos, ensinando a construir barreiras saudáveis contra comportamentos abusivos."
   },
   {
-    title: "Reconhecendo bons homens",
+    title: "Empoderamento para Escolhas Conscientes",
     subtitle:
-      "Dicas para identificar parceiros saudáveis e evitar os perfis perigosos."
+      "Ao entender melhor as dinâmicas de um relacionamento saudável, o leitor se torna mais confiante para fazer escolhas que priorizem seu bem-estar e felicidade. Esse conhecimento empodera as pessoas a construírem laços baseados no respeito, na reciprocidade e no amor próprio."
   }
 ]
 
