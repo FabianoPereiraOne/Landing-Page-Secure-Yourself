@@ -16,7 +16,7 @@ export const Benefits = () => {
           MotionComponent={motion.article}
           direction='up'
           delay={0.1}
-          className='w-full md:max-w-[500px] z-10'
+          className='w-full md:max-w-[550px] z-10'
         >
           <strong className='block max-w-[250px] mx-auto text-center bg-red-500 px-4 py-2 text-white text-md font-normal rounded-[24px] uppercase'>
             Entenda os Fatores
@@ -25,7 +25,7 @@ export const Benefits = () => {
             O que você vai encontrar
           </h3>
           <p className='text-center mt-4 text-gray-200 font-normal text-md whitespace-pre-line'>
-            Um guia completo que aborda todos os aspectos do feminicídio
+            Um guia completo que aborda todos os aspectos do ciclo do abuso
           </p>
         </AnimateOnScroll>
         <div className='w-full z-10 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-10 before:blur-[200px] relative  before:absolute before:left-[50%] before:translate-x-[-50%] before:bottom-36px before:w-[150px] before:h-[150px] lg:before:w-[200px] lg:before:h-[200px] before:-z-10 before:bg-red-500 before:rounded-full lg:before:blur-[250px] '>
