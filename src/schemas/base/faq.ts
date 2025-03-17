@@ -1,27 +1,24 @@
 export const faqItems = [
   {
-    question: "Este ebook é apenas para mulheres",
+    question: "Este ebook é apenas para mulheres?",
     answer:
-      "Sim, este ebook foi especialmente desenvolvido pensando nas necessidades e objetivos das mulheres."
+      "Não, ele é desenvolvido para o público feminino, mas pode ser adquirido por todos que queiram a proteção das mulheres."
   },
   {
-    question: "Este ebook é apenas para mulheres",
-    answer:
-      "O conteúdo é focado na jornada feminina e suas particularidades específicas."
+    question: "É seguro comprar?",
+    answer: "Sim, nossa forma de pagamento é pelo Mercado Pago."
   },
   {
-    question: "Este ebook é apenas para mulheres",
-    answer:
-      "Desenvolvemos este material considerando as características únicas do público feminino."
+    question: "O ebook têm muitas páginas?",
+    answer: "É um ebook amplo, porém direto ao ponto."
   },
   {
-    question: "Este ebook é apenas para mulheres",
-    answer:
-      "O material foi criado exclusivamente para atender às demandas do público feminino."
+    question: "Como recebo o ebook?",
+    answer: "Após a compra é automaticamente enviado para seu email."
   },
   {
-    question: "Este ebook é apenas para mulheres",
+    question: "Preciso fornecer meus dados?",
     answer:
-      "Todo o conteúdo foi pensado e estruturado para a realidade das mulheres."
+      "Para se cadastrar no site apenas seu nome e email, no Mercado Pago dependerá de sua forma de pagamento."
   }
 ]
